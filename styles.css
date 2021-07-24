@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    overflow-x: none;
+
+}
+body{
+    font-family: sans-serif;
+    max-width: 300px;
+    margin: auto;
+}
+#start{
+    font-size: 30px;
+    height: 100px;
+    padding: 20px 20px;
+    border: 3px solid black;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
+    background-color: rgb(241, 82, 70);
+}
+#start:hover{
+    background-color: rgba(15, 233, 33, 0.815); 
+}
+
+.color{
+    width: 165px;
+    height: 165px;
+   
+}
+
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color:blue;
+}
+.yellow{
+  background-color: yellow;
+}
+
+.section2{
+    display: flex;
+}
+.section1{
+    margin-top: 16px;
+    width: 300px;
+    height: 200px;
+    display: grid;
+    text-align: center;
+}
+.textclr{
+    font-size: 48px;
+    display: none;
+}
+
+#time{
+    position: absolute;
+    top:25%;
+    left:29.5%;
+    text-align: center;
+    width: 300px;
+    font-size: 48px; 
+}
+
+#correct, #wrong{
+    pointer-events: none;
+    position: absolute;
+    width: 10%;
+    left: 45%;
+    top: 10%;
+    opacity: 0;
+}
+
+
+.fadeAway{
+    animation: fadeAway 500ms;
+}
+@keyframes fadeAway
+{
+    100%{opacity: 0}
+    50%{opacity: 0.5}
+    0%{opacity: 1}
+}
+@media only screen and (max-width: 600px){
+    #correct, #wrong
+  {
+        position: absolute;
+        width: 50%;
+        left: 25%;
+        top: 10%;
+    }
+}
+
