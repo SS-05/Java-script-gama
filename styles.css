@@ -90,9 +90,9 @@ body{
     #correct, #wrong
   {
         position: absolute;
-        width: 40%;
-        left: 20%;
-        top: 8.5%;
+        width: 30%;
+        left: 15%;
+        top: 10%;
     }
     #time{
     
