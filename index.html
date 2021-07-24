@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Guess</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="fav.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    
+    <div class="section1">
+        <button id="start" onclick="begin()">Play</button>
+        <div id="clr" class="textclr color1"></div>
+    </div>
+    <div class="section2">
+        <div class="row">
+            <div id="Orange" class="color orange"></div>
+            <div id="Green" class="color green"></div>
+        </div>
+        <div class="row">
+            <div id="Blue" class="color blue"></div>
+            <div id="Yellow" class="color yellow"></div>
+        </div>
+    </div>
+    <img src="right.jpg" alt="" id="correct">
+    <img src="wrong.jpg" alt="" id="wrong">
+    <span id="time"></span>
+</body>
+<script src="index.js"></script>
+</html>
