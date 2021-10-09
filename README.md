@@ -1,1 +1,1 @@
-# Java-script-gama
+# Java-script-game
